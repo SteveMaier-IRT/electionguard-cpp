@@ -91,6 +91,12 @@ jobs:
         with:
           name: osx-x64
           path: build/libs/x86_64/Release/src/*.dylib
+      - name: Make Mobile Builds
+        env:
+          NDK_PATH: $$ANDROID_NDK_LATEST_HOME
+        run: |
+          make build-android
+          make build-ios
 
   package:
     name: Upload Package
