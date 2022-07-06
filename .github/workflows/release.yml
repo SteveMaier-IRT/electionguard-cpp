@@ -1,8 +1,16 @@
 name: Release
 
 on:
-  milestone:
-    types: [closed]
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/**"
+      - "apps/**"
+      - "bindings/**"
+      - "include/**"
+      - "src/**"
+      - "test/**"
+    branches: [main]
 
 env:
   TARGET: Release
