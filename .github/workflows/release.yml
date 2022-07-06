@@ -204,4 +204,4 @@ jobs:
             ./build/libs/android/Release/x86/src/*.so
             ./build/libs/android/Release/x86_64/src/*.so
             ./build/libs/android/Release/arm-v8a/src/*.so
-            ./build/libs/android/Release/armeabi-v7a/*.so
+            ./build/libs/android/Release/armeabi-v7a/src/*.so
