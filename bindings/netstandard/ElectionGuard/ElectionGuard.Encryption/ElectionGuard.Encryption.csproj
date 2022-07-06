@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
     <Platforms>x64;x86</Platforms>
+    <RuntimeIdentifiers>win-x86;win-x64;osx-x64;linux-x64;xamarinios</RuntimeIdentifiers>
 
     <!-- Project -->
     <RootNamespace>ElectionGuard</RootNamespace>
