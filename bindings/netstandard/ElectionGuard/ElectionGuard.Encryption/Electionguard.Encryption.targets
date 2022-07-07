@@ -12,19 +12,19 @@
       <CopyToOutputDirectory >PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup  Condition="'$(Platform)' == 'x86' AND '$(TargetFrameworkIdentifier)' == 'xamarin.android'">
+  <ItemGroup  Condition="'$(TargetFrameworkIdentifier)' == 'MonoAndroid'">
     <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)..\runtimes\monoandroid\x86\native\libelectionguard.so">
       <Link>libelectionguard.so</Link>
       <Abi>x86</Abi>
     </AndroidNativeLibrary>
   </ItemGroup>
-  <ItemGroup Condition="'$(Platform)' == 'x64' AND '$(TargetFrameworkIdentifier)' == 'xamarin.android'">
+  <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == 'MonoAndroid'">
     <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)..\runtimes\monoandroid\x86_64\native\libelectionguard.so">
       <Link>libelectionguard.so</Link>
       <Abi>x86_64</Abi>
     </AndroidNativeLibrary>
   </ItemGroup>
-  <ItemGroup  Condition="'$(TargetFrameworkIdentifier)' == 'xamarin.ios'">
+  <ItemGroup  Condition="'$(TargetFrameworkIdentifier)' == 'xamarinios'">
     <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)..\runtimes\xamarinios\native\libelectionguard.a">
       <Link>libelectionguard.a</Link>
     </AndroidNativeLibrary>
