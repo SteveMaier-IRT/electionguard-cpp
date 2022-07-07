@@ -14,13 +14,13 @@
   </ItemGroup>
   <ItemGroup  Condition="'$(TargetFrameworkIdentifier)' == 'MonoAndroid'">
     <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)..\runtimes\monoandroid\x86\native\libelectionguard.so">
-      <Link>runtimes\monoandroid\x86\native\libelectionguard.so</Link>
+      <Link>libelectionguard.so</Link>
       <Abi>x86</Abi>
     </AndroidNativeLibrary>
   </ItemGroup>
   <ItemGroup  Condition="'$(TargetFrameworkIdentifier)' == 'MonoAndroid'">
     <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)..\runtimes\monoandroid\x86_64\native\libelectionguard.so">
-      <Link>runtimes\monoandroid\x86_64\native\libelectionguard.so</Link>
+      <Link>libelectionguard.so</Link>
       <Abi>x86_64</Abi>
     </AndroidNativeLibrary>
   </ItemGroup>

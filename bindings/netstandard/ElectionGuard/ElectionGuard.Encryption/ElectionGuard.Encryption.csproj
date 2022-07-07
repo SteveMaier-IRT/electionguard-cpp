@@ -100,7 +100,12 @@
       <PackageCopyToOutput>true</PackageCopyToOutput>
     </Content>
 
-
+    <ItemGroup>
+      <Content Include="runtimes\**" PackagePath="runtimes">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+    
     <None Include="Electionguard.Encryption.targets">
       <PackagePath>build\</PackagePath>
       <Pack>true</Pack>
