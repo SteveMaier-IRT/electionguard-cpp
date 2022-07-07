@@ -25,8 +25,11 @@
     </AndroidNativeLibrary>
   </ItemGroup>
   <ItemGroup  Condition="('$(TargetFrameworkIdentifier)' == 'Xamarin.iOS' OR '$(TargetFrameworkIdentifier)' == 'Xamarin.iOS10' OR '$(TargetFrameworkIdentifier)' == 'ios' OR '$(TargetFrameworkIdentifier)' == 'xamarinios' OR '$(TargetFrameworkIdentifier)' == 'xamarinios10')">
-    <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)..\runtimes\xamarinios\native\libelectionguard.a">
+    <Library Include="$(MSBuildThisFileDirectory)..\runtimes\xamarinios\native\libelectionguard.a">
       <Link>libelectionguard.a</Link>
-    </AndroidNativeLibrary>
+    </Library>
+    <Library Include="$(MSBuildThisFileDirectory)..\runtimes\xamarinios\native\libspdlog.a">
+      <Link>libspdlog.a</Link>
+    </Library>
   </ItemGroup>
 </Project>
