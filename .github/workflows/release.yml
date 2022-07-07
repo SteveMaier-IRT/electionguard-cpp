@@ -201,7 +201,3 @@ jobs:
             ./build/libs/x86_64/Release/src/*.so
             ./build/libs/msvc/x64/src/Release/*.dll*
             ./build/libs/ios/Release/lib/*.a
-            ./build/libs/android/Release/x86/src/*.so
-            ./build/libs/android/Release/x86_64/src/*.so
-            ./build/libs/android/Release/arm64-v8a/src/*.so
-            ./build/libs/android/Release/armeabi-v7a/src/*.so
