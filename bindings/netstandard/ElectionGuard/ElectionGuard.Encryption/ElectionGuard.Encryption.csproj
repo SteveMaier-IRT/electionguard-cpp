@@ -8,9 +8,9 @@
     <!-- Project -->
     <RootNamespace>ElectionGuard</RootNamespace>
     <AssemblyName>ElectionGuard.Encryption</AssemblyName>
-    <Version>0.1.20</Version>
-    <AssemblyVersion>0.1.20.0</AssemblyVersion>
-    <AssemblyFileVersion>0.1.20.0</AssemblyFileVersion>
+    <Version>0.1.21</Version>
+    <AssemblyVersion>0.1.21.0</AssemblyVersion>
+    <AssemblyFileVersion>0.1.21.0</AssemblyFileVersion>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -20,7 +20,7 @@
     <Title>ElectionGuard Encryption</Title>
     <Description>Open source implementation of ElectionGuard's ballot encryption.</Description>
     <Authors>Microsoft</Authors>
-    <PackageVersion>0.1.20</PackageVersion>
+    <PackageVersion>0.1.21</PackageVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/microsoft/electionguard-cpp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/microsoft/electionguard-cpp</RepositoryUrl>

@@ -24,7 +24,7 @@
       <Abi>x86_64</Abi>
     </AndroidNativeLibrary>
   </ItemGroup>
-  <ItemGroup  Condition="('$(TargetFramework.StartsWith('xamarin.ios')) OR '$(TargetFrameworkIdentifier)' == 'Xamarin.iOS10' OR '$(TargetFrameworkIdentifier)' == 'ios' OR '$(TargetFrameworkIdentifier)' == 'xamarinios' OR '$(TargetFrameworkIdentifier)' == 'xamarinios10')">
+  <ItemGroup  Condition="($(TargetFramework.StartsWith('xamarin.ios')) OR '$(TargetFrameworkIdentifier)' == 'Xamarin.iOS10' OR '$(TargetFrameworkIdentifier)' == 'ios' OR '$(TargetFrameworkIdentifier)' == 'xamarinios' OR '$(TargetFrameworkIdentifier)' == 'xamarinios10')">
     <Library Include="$(MSBuildThisFileDirectory)..\runtimes\xamarinios\native\libelectionguard.a">
       <Link>libelectionguard.a</Link>
     </Library>
